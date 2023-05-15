@@ -1,0 +1,47 @@
+ID;Type;Question;Answer_A;Answer_B;Answer_C;Answer_D;Correct;Flag;Asked;Answered
+45;2023-05-15 21:01;Felicia;Unused;Unused;Unused;Unused;Unused;Unused;Unused;Unused
+1;m;What is Python?;A snake;A programming language;A type of software;A computer brand;B;1;0;0
+2;m;Which keyword is used to define a function in Python?;def;function;define;func;A;1;0;0
+3;m;What is the output of the following code? print(2 + 3 * 4);20;14;12;9;C;1;0;0
+4;m;Which operator is used for exponentiation in Python?;**;^;//;%;A;1;0;0
+5;m;Which statement is used to exit a loop prematurely in Python?;break;exit;continue;return;A;1;0;0
+6;m;Which module is used for working with dates and times in Python?;datetime;math;time;calendar;A;1;1;1
+7;m;What is the correct way to create a list in Python?;list = [1, 2, 3];list = (1, 2, 3);list = {1, 2, 3};"list = ""1, 2, 3""";A;1;0;0
+8;m;"What is the output of the following code? print(""Hello"" + ""World"")";HelloWorld;Hello World;Hello + World;Error;B;1;0;0
+9;m;Which function is used to get the length of a string in Python?;length();size();count();len();D;1;0;0
+10;m;Which data type is used to store a sequence of characters in Python?;int;float;str;bool;C;1;0;0
+11;m;What is the correct way to write a comment in Python?;// This is a comment;# This is a comment;/* This is a comment */;<!-- This is a comment -->;B;1;0;0
+12;m;What is the result of the expression 3 > 2 and 5 < 4 in Python?;TRUE;FALSE;Error;None;B;1;0;0
+13;m;Which function is used to convert a string to an integer in Python?;str();int();float();bool();B;1;1;1
+14;m;What is the output of the following code? x = [1, 2, 3] print(x[1]);1;2;3;Error;B;1;0;0
+15;m;Which statement is used to import a module in Python?;require;import;include;load;B;1;1;1
+16;m;Which method is used to add an element to a list in Python?;append();add();insert();extend();A;1;0;0
+17;m;What is the correct way to access the last element of a list in Python?;list[-1];list[-2];list[0];list[1];A;1;0;0
+18;m;What is the result of the expression 10 / 3 in Python?;3.333;3;3.0;3.33;A;1;0;0
+19;m;Which module is used for regular expression operations in Python?;regex;re;reg;rxp;B;1;0;0
+20;m;"What is the output of the following code? print(""Hello"" * 3)";HelloHelloHello;Hello 3;Hello * 3;Error;A;1;0;0
+21;m;Which data structure in Python is an ordered and changeable collection of elements?;list;tuple;set;dictionary;A;1;1;1
+22;m;What is the correct way to check if a key exists in a dictionary in Python?;key in dictionary;exists(key, dictionary);has_key(key, dictionary);contains(key, dictionary);A;1;0;0
+23;m;Which operator is used for floor division in Python?;//;/;%;**;A;1;0;0
+24;m;Which method is used to remove an element from a set in Python?;remove();discard();delete();pop();B;1;0;0
+25;m;What is the correct way to define a constant variable in Python?;CONSTANT = 10;constant = 10;Constant = 10;const = 10;A;1;0;0
+26;m;Which statement is used to raise an exception in Python?;break;pass;raise;continue;C;1;0;0
+27;m;Which function is used to sort a list in Python?;sort();sorted();order();arrange();B;1;0;0
+28;m;Which keyword is used to define a class in Python?;class;def;object; self;A;1;0;0
+29;m;What is the result of the expression 5 > 3 and 10 < 8 in Python?;TRUE;FALSE;Error; None;B;1;0;0
+30;m;Which method is used to remove an item from a list in Python?;remove();pop();delete(); discard();B;1;0;0
+31;m;"What is the output of the following code? print(len(""Hello World""))";10;11;5; Error;C;1;0;0
+32;m;Which module is used for working with regular expressions in Python?;re;regex;string; reg;A;1;0;0
+33;m;What is the correct way to define a function in Python?;def myFunction():;myFunction():;function myFunction():; function myFunction();A;1;0;0
+34;m;Which data type is used to represent a sequence of characters in Python?;str;int;list; tuple;A;1;0;0
+35;m;What is the output of the following code? print(10 / 2);5;2.5;0.5; Error;A;1;1;1
+36;m;Which operator is used for exponentiation in Python?;**;^;//; %;A;1;0;0
+37;m;Which function is used to convert a string to uppercase in Python?;upper();to_uppercase();uppercase(); convert_upper();A;1;0;0
+38;m;What is the correct way to check if a key exists in a dictionary in Python?;key in dictionary;exists(key, dictionary);has_key(key, dictionary); contains(key, dictionary);A;1;0;0
+39;m;"What is the output of the following code? print(""Python"".lower())";PYTHON;python;Python; Error;B;1;1;1
+40;m;Which statement is used to exit a loop prematurely in Python?;break;exit;continue; return;A;0;0;0
+41;m;Which function is used to generate a random number in Python?;random();randint();rand(); randomize();B;1;0;0
+42;m;What is the output of the following code? print(list(filter(lambda x: x % 2 == 0, range(10))));[2, 4, 6, 8];[0, 2, 4, 6, 8];[1, 3, 5, 7, 9];Error;A;1;0;0
+43;m;"What is the result of the following expression in Python? Hello  + 3 * ""World""";Hello World;Hello World World World;Hello 3 World;Error;B;1;1;0
+44;m;What is the difference between a tuple and a list in Python?;Tuples are immutable while lists are mutable;Lists are immutable while tuples are mutable;Both tuples and lists are mutable; Both tuples and lists are immutable;A;1;0;0
+45;m;"What is the difference between ""is"" and ""=="" in Python?";"""is"" checks for object identity while ""=="" checks for equality";"""is"" checks for equality while ""=="" checks for object identity";"""is"" and ""=="" are the same in Python"; None of the above;A;1;0;0

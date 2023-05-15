@@ -1,0 +1,7 @@
+Date       Time     Topic                          User     Correct Total Score
+2023-05-15 01:00:25 Ferengi Rules of Acquisition   Katya          0     8  0.0 %
+2023-05-15 01:02:57 test bed                       Katya          3     6 50.0 %
+2023-05-15 01:04:43 test bed                       Katya          2     4 50.0 %
+2023-05-15 01:06:15 questions                      Katya          0     6  0.0 %
+2023-05-15 19:40:59 test bed                       Felicia        3     5 60.0 %
+2023-05-15 19:45:16 test bed                       Felicia        1     4 25.0 %

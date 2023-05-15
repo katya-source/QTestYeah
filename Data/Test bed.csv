@@ -1,0 +1,10 @@
+ID;Type;Question;Answer_A;Answer_B;Answer_C;Answer_D;Correct;Flag;Asked;Answered
+10;2023-05-15 23:34:09;Felicia;Unused;Unused;Unused;Unused;Unused;Unused;Unused;Unused
+1;f;This is test question Nr. 1;;;;;1;1;2;2
+2;f;This is test question Nr. 2;;;;;;1;4;4
+5;m;This is test question Nr. 4;Aha;Berta;Charlie;Dora;A;1;2;2
+6;m;This is test question Nr. 6;A;B;C;D;A;1;4;4
+7;f;This is test question Nr. 7;;;;;7;1;4;4
+8;f;This is test question Nr. 8;;;;;8;1;1;1
+9;m;This is test question Nr. 9;A;B;C;D;A;1;2;2
+10;f;Another test;;;;;10;1;0;0
