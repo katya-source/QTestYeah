@@ -27,9 +27,6 @@ def main():
                 window_event = get_topic(questions)
             case c.WINDOW_MAIN_MENU:
                 window_event = display_main_menu(users.current_user_role,questions.data_rows)
-            case c.WINDOW_QUIT_PROGRAM:
-                say_goodbye()
-                break
             case c.WINDOW_USERS:
                 window_event = display_data_window(users,window_event,users.current_user)
             case c.WINDOW_QMANAGER:
@@ -40,6 +37,11 @@ def main():
                 window_event = display_test_window(questions,users.current_user)
             case c.WINDOW_STATS:
                 window_event = display_data_window(questions,window_event,users.current_user)
+            case c.WINDOW_QUIT_PROGRAM:
+                window_event = say_goodbye()
+            case c.BREAK_OUT_OF_JAIL:
+                break
+
 
 if __name__ == "__main__":
     main()

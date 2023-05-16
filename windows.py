@@ -46,6 +46,7 @@ def get_topic(questions):
 def say_goodbye():
     os.system('cls' if os.name == 'nt' else 'clear')
     print(f"{c.COLOR_HEADER}Thank you and goodbye!{c.COLOR_NORMAL}")
+    return c.BREAK_OUT_OF_JAIL
 
 def display_main_menu(current_user_role,number_of_questions):
     os.system('cls' if os.name == 'nt' else 'clear')
