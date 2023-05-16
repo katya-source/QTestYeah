@@ -6,3 +6,4 @@ Date       Time     Topic                          User     Correct Total Score
 2023-05-15 19:40:59 test bed                       Felicia        3     5 60.0 %
 2023-05-15 19:45:16 test bed                       Felicia        1     4 25.0 %
 2023-05-16 20:15:36 Geography                      Katya          4     5 80.0 %
+2023-05-16 21:36:56 Geography                      Felicia        2     5 40.0 %
