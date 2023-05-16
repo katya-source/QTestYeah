@@ -1,6 +1,12 @@
 """This a collection of small function used in various parts of the project."""
 import constants as c
 
+def extract_window_id(window_event):
+    return (window_event // c.WINDOW_EXTRACTOR) * c.WINDOW_EXTRACTOR
+
+def extract_event_id(window_event):
+    return window_event % c.EVENT_EXTRACTOR
+
 def flag_to_str(flag):
     return "enabled" if flag == c.FLAG_ENABLED else "disabled"
 

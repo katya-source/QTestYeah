@@ -1,48 +1,48 @@
 ID;Type;Question;Answer_A;Answer_B;Answer_C;Answer_D;Correct;Flag;Asked;Answered
-152;2023-05-15 22:56:11;Felicia;Unused;Unused;Unused;Unused;Unused;Unused;Unused;Unused
+152;2023-05-16 20:14:39;Katya;Unused;Unused;Unused;Unused;Unused;Unused;Unused;Unused
 1;m;Which is the largest continent?;Asia;Europe;Africa;North America;A;1;0;0
 2;m;Which ocean is the largest in the world?;Pacific Ocean;Atlantic Ocean;Indian Ocean;Southern Ocean;A;1;0;0
-3;m;What is the capital of Australia?;Sydney;Melbourne;Canberra;Brisbane;C;1;0;0
+3;m;What is the capital of Australia?;Sydney;Melbourne;Canberra;Brisbane;C;1;1;1
 4;m;"Which country is known as the ""Land of the Rising Sun""?";China;Japan;Thailand;South Korea;B;1;0;0
-5;m;What is the longest river in the world?;Nile River;Amazon River;Mississippi River;Yangtze River;A;1;0;0
+5;m;What is the longest river in the world?;Nile River;Amazon River;Mississippi River;Yangtze River;A;1;1;0
 6;m;Which country is famous for the Eiffel Tower?;Italy;Germany;France;Spain;C;1;0;0
 7;m;What is the largest desert in the world?;Sahara Desert;Gobi Desert;Kalahari Desert;Atacama Desert;A;1;0;0
 8;m;What is the capital of Canada?;Toronto;Vancouver;Ottawa;Montreal;C;1;1;1
 9;m;Which country is known for its pyramids?;Mexico;Egypt;Peru;Greece;B;1;0;0
 10;m;What is the tallest mountain in the world?;Mount Everest;Mount Kilimanjaro;Mount McKinley;Mount Fuji;A;1;0;0
 11;m;Which country is the largest producer of coffee?;Brazil;Colombia;Ethiopia;Vietnam;A;1;0;0
-12;m;Which city is famous for the Statue of Liberty?;New York City;Washington, D.C.;Los Angeles;Chicago;A;1;1;0
+12;m;Which city is famous for the Statue of Liberty?;New York City;Washington, D.C.;Los Angeles;Chicago;A;1;1;1
 13;m;"Which continent is known as the ""Land Down Under""?";Europe;Africa;South America;Australia;D;1;1;1
 14;m;What is the currency of Japan?;Yen;Euro;Dollar;Pound;A;1;0;0
 15;m;Which country is the largest producer of oil?;Saudi Arabia;United States;Russia;Canada;A;1;0;0
 16;m;Which is the smallest continent?;Africa;Europe;Australia;Antarctica;D;1;0;0
 17;m;What is the capital of Spain?;Madrid;Barcelona;Seville;Valencia;A;1;0;0
 18;m;What is the capital of France?;Paris;Rome;Berlin;London;A;1;0;0
-19;m;Which country is famous for the Great Wall?;China;India;Brazil;Russia;A;1;0;0
+19;m;Which country is famous for the Great Wall?;China;India;Brazil;Russia;A;1;2;1
 20;m;What is the largest country in South America?;Brazil;Argentina;Colombia;Peru;A;1;0;0
 21;m;Which is the largest lake in Africa?;Lake Victoria;Lake Tanganyika;Lake Malawi;Lake Chad;A;1;1;1
 22;m;What is the official language of Brazil?;Portuguese;Spanish;English;French;A;1;0;0
-23;m;Which country is located in both Europe and Asia?;Russia;Turkey;Kazakhstan;Armenia;A;1;0;0
-24;m;What is the national animal of Canada?;Beaver;Moose;Polar Bear;Bison;A;1;0;0
+23;m;Which country is located in both Europe and Asia?;Russia;Turkey;Kazakhstan;Armenia;A;1;1;0
+24;m;What is the national animal of Canada?;Beaver;Moose;Polar Bear;Bison;A;1;1;0
 25;m;Which is the highest waterfall in the world?;Angel Falls;Niagara Falls;Iguazu Falls;Victoria Falls;A;1;0;0
 26;m;What is the smallest country in the world?;Vatican City;Monaco;Maldives;Andorra;A;1;0;0
 27;m;Which country is famous for its tulips and windmills?;Netherlands;Belgium;Denmark;Sweden;A;1;0;0
 28;m;"Which city is known as the ""Eternal City""?";Rome;Athens;Jerusalem;Cairo;A;1;0;0
 29;m;What is the official language of Japan?;Japanese;Chinese;Korean;Thai;A;1;0;0
-30;m;"Which country is known as the ""Land of Fire and Ice""?";Iceland;Greenland;Norway;Finland;A;1;0;0
+30;m;"Which country is known as the ""Land of Fire and Ice""?";Iceland;Greenland;Norway;Finland;A;1;1;0
 31;m;What is the largest island in the Mediterranean Sea?;Sicily;Sardinia;Cyprus;Corsica;A;1;0;0
 32;m;Which country is famous for the Pyramids of Giza?;Egypt;Morocco;Tunisia;Algeria;A;1;0;0
-33;f;Which continent is Brazil located in?;;;;;South America;1;0;0
+33;f;Which continent is Brazil located in?;;;;;South America;1;1;1
 34;f;What is the largest ocean in the world?;;;;;Pacific;1;0;0
 35;f;What is the capital of Spain?;;;;;Madrid;1;0;0
-36;f;Which river runs through Paris?;;;;;Seine;1;0;0
-37;f;"Which country is known as the ""Land of the Rising Sun""?";;;;;Japan;1;0;0
+36;f;Which river runs through Paris?;;;;;Seine;1;1;1
+37;f;"Which country is known as the ""Land of the Rising Sun""?";;;;;Japan;1;1;1
 38;f;What is the tallest mountain in the world?;;;;;Everest;1;0;0
 39;f;Which desert is located in Africa?;;;;;Sahara;1;0;0
 40;f;Which is the largest city in the United States?;;;;;New York;1;0;0
 41;f;Which country is famous for the Taj Mahal?;;;;;India;1;1;1
-42;f;What is the smallest continent?;;;;;Australia;1;0;0
-43;f;What is the largest country in the world by land area?;;;;;Russia;1;0;0
+42;f;What is the smallest continent?;;;;;Australia;1;1;1
+43;f;What is the largest country in the world by land area?;;;;;Russia;1;1;1
 44;f;Which country is known for its kangaroos?;;;;;Australia;1;0;0
 45;f;Which is the longest river in Europe?;;;;;Volga;1;0;0
 46;f;What is the capital of Italy?;;;;;Rome;1;1;1

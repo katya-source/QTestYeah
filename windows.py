@@ -2,7 +2,7 @@ import os
 import random
 import datetime
 import constants as c
-from helper_functions import score_to_str
+from helper_functions import score_to_str,extract_event_id
 
 """Window functions
 These are functions which print various windows without requiring full-scale database management.
@@ -20,17 +20,16 @@ def get_topic(questions):
     os.system('cls' if os.name == 'nt' else 'clear')
     print(f"{c.COLOR_HEADER}These are our topics:{c.COLOR_NORMAL}")
     topics = {}
-    data_folder = "Data"
     id = 0
-    for file_name in os.listdir(data_folder):
-        if file_name.endswith(".csv") and file_name != "users.csv":
+    for file_name in os.listdir(c.DATA_FOLDER):
+        if file_name.endswith(".csv") and file_name != f"{c.USER_CSVFILE_NAME}.csv":
             id += 1
             topics[id] = file_name.replace(".csv","")
             print(f"{id} - {topics[id]}")
 
     while True:
         topic_id = input(f"{c.COLOR_INPUT}Enter topic ID (or q to cancel):{c.COLOR_NORMAL} ").lower()
-        if topic_id == "q'":
+        if topic_id == "q":
             break
         try:
             topic_id = int(topic_id)
@@ -92,8 +91,7 @@ def display_main_menu(current_user_role,number_of_questions):
 def display_data_window(DataHandler,window_event,current_user):
     os.system('cls' if os.name == 'nt' else 'clear')
     DataHandler.paint_data_window(window_event // c.WINDOW_EXTRACTOR * c.WINDOW_EXTRACTOR)
-
-    match window_event % c.EVENT_EXTRACTOR:
+    match extract_event_id(window_event):
         case c.EVENT_VIEW_ITEMS:
             if window_event // c.WINDOW_EXTRACTOR * c.WINDOW_EXTRACTOR == c.WINDOW_USERS:
                 print_footer(DataHandler.window_size,"A - Add | E - Edit | D - Delete | S - Save changes | Q - Quit",True)
@@ -216,6 +214,7 @@ def display_test_window(questions,current_user):
     input(f"Your final score is: {score} of {cnt} = {score_to_str(score,cnt)} answered correctly.")
     return c.WINDOW_MAIN_MENU + c.EVENT_VIEW_ITEMS
 
+# helper functions for the display_ functions
 def print_footer(window_size, description,set_page_bar):
     print("├" + "─" * (window_size - 2) + "┤")
     print(f"│ {description.ljust(window_size-4)} │")

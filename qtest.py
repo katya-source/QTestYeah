@@ -1,6 +1,7 @@
 from UserHandler import UserHandler
 from QuestionHandler import QuestionHandler
 from windows import display_main_menu,say_goodbye,display_data_window,display_practise_window,get_topic,display_test_window
+from helper_functions import extract_window_id
 import constants as c
 
 """Main function:
@@ -21,7 +22,7 @@ def main():
 
     window_event = c.WINDOW_MAIN_MENU + c.EVENT_VIEW_ITEMS
     while True:
-        match (window_event // c.WINDOW_EXTRACTOR) * c.WINDOW_EXTRACTOR:
+        match extract_window_id(window_event):
             case c.WINDOW_TOPICS:
                 window_event = get_topic(questions)
             case c.WINDOW_MAIN_MENU:
